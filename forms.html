@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="formulario_html_css" />
+    <link rel="import" href="" />
+    <link
+      rel="shortcut icon"
+      href="img/formulario-de-contato.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h2>LOGO</h2>
+      <nav class="navegation">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contat</a>
+        <a href="">Login</a>
+      </nav>
+    </header>
+
+    <main class="cont">
+      <h1>LOGIN</h1>
+      <br />
+
+      <form action="">
+        <section class="val-input">
+          <input type="text" name="user" placeholder="Username" />
+          <i class="bx bxs-user"></i>
+        </section>
+
+        <section class="val-input">
+          <input
+            type="password"
+            name="pass"
+            placeholder="Password"
+            onclick="see_password"
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </section>
+
+        <section class="forgot_pass">
+          <label for="val_remember"
+            ><input type="checkbox" name="remember" id="val_remember" />Remember
+            me
+          </label>
+
+          <a href="http://">Forgot password</a>
+        </section>
+
+        <button type="submit" class="btn_submit">Login</button>
+
+        <section class="regs_account">
+          <p>Don't have on account? <a href="">Register</a></p>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
