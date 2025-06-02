@@ -156,6 +156,12 @@ header:has(.navegation a:hover) {
 }
 
 @media (max-width: 450px) {
+  header {
+    justify-content: center;
+  }
+  header .navegation {
+    margin-top: 10px;
+  }
   .cont {
     width: 95%;
     height: 450px;
